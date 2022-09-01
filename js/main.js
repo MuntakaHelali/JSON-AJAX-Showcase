@@ -47,7 +47,6 @@ const retrieveAnimalData = () =>{
     }
 }
 
-
 // Controller
 button.onclick = () => {
     div.innerHTML ='';
