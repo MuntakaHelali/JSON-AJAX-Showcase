@@ -1,28 +1,21 @@
-html{
-    display: block;
-    height: 1000px;
-    overflow-y: scroll;
-}
 /* Large Display Screen Size */
 @media (min-width: 1865px){
     body{
-        padding: 10px;
-        margin: 0;
         font-family: Arial;
-        background-color: blue;
+        background-color: grey;
+        overflow: auto;
+        margin: 0;
     }
     .modal{
-        position: fixed; 
+        position:absolute; 
         z-index: 1; 
-        left: 0;
-        top: 0;
+        margin: 0;
+        padding: 0;
         width: 100%; 
         height: 100%; 
-        overflow: auto; 
         background-color: rgba(0, 0, 0, 0.8);
         text-align: center;
     }
-    
     .hide{
         opacity: 0;
         display: none;
@@ -40,12 +33,11 @@ html{
 
     .header{
         display: flex;
-        position: fixed;
+        position: absolute;
+        top: 35%;
+        left: 35%;
+        width: 30%;
         height: 30%;
-        top: 30%;
-        left: 30%;
-        right: 30%;
-        bottom: 45%;
         flex: 1;
         flex-direction: column;
         justify-content: center;
@@ -53,7 +45,7 @@ html{
         background-color:lightcoral;
         border-radius: 20px;
         box-shadow: 1px 2px 10px white;
-        padding: 10px;
+        padding: 5px;
     }
     h1{
         display: flex;
@@ -123,23 +115,21 @@ html{
 /* Medium Display Screen Size */
 @media (min-width: 1200.1px) and (max-width: 1864.99px){
     body{
-        padding: 8px;
-        margin: 0;
         font-family: Arial;
-        background-color: blue;
+        background-color: grey;
+        overflow: scroll;
+        margin: 0;
     }
     .modal{
-        position: fixed; 
+        position:absolute; 
         z-index: 1; 
-        left: 0;
-        top: 0;
+        margin: 0;
+        padding: 0;
         width: 100%; 
         height: 100%; 
-        overflow: auto; 
         background-color: rgba(0, 0, 0, 0.8);
         text-align: center;
     }
-    
     .hide{
         opacity: 0;
         display: none;
@@ -157,14 +147,11 @@ html{
 
     .header{
         display: flex;
-        position: fixed;
-        height: 30%;
-        top: 45%;
+        position: absolute;
+        top: 35%;
         left: 35%;
-        right: 35%;
-        bottom: 45%;
-        width: fit-content;
-        height: fit-content;
+        width: 30%;
+        height: 30%;
         flex: 1;
         flex-direction: column;
         justify-content: center;
@@ -242,23 +229,21 @@ html{
 /* Smaller Display Screen Size */
 @media (min-width: 100px) and (max-width: 1200px){
     body{
-        padding: 8px;
-        margin: 0;
         font-family: Arial;
-        background-color: blue;
+        background-color: grey;
+        overflow: scroll;
+        margin: 0;
     }
     .modal{
-        position: fixed; 
+        position:absolute; 
         z-index: 1; 
-        left: 0;
-        top: 0;
+        margin: 0;
+        padding: 0;
         width: 100%; 
         height: 100%; 
-        overflow: auto; 
         background-color: rgba(0, 0, 0, 0.8);
         text-align: center;
     }
-    
     .hide{
         opacity: 0;
         display: none;
@@ -276,14 +261,13 @@ html{
 
     .header{
         display: flex;
-        position: fixed;
-        height: 30%;
-        top: 45%;
+        position: absolute;
+        top: 40%;
         left: 35%;
         right: 35%;
-        bottom: 45%;
-        height: fit-content;
+        bottom: 40%; 
         width: fit-content;
+        height: fit-content;
         flex: 1;
         flex-direction: column;
         justify-content: center;
