@@ -235,7 +235,7 @@
 }
 
 /* Smaller Display Screen Size */
-@media (min-width: 500px) and (max-width: 1200px){
+@media (min-width: 100px) and (max-width: 1200px){
     body{
         padding: 8px;
         margin: 0;
