@@ -3,10 +3,10 @@
         font-family: Arial;
         background-color: grey;
         margin: 0;
-        overflow: hidden;
+        overflow-y: scroll;
     }
     .modal{
-        position:fixed; 
+        position:absolute; 
         z-index: 1; 
         margin: 0;
         padding: 0;
@@ -41,7 +41,7 @@
         padding: 1%;
     }
     .header{
-        height: 300px;
+        height: 500px;
         display: flex;
         flex-direction: column;
         flex: 1;
@@ -53,7 +53,6 @@
         box-shadow: 1px 2px 10px white;
         padding: 5px;
         box-sizing: border-box;
-        overflow: hidden;
     }
 
     h1{
@@ -64,7 +63,6 @@
     }
     
     button{
-        /* position: relative; */
         background-color: #1C8EEA;
         border:none;
         border-color: rgb(29, 155, 240);
@@ -90,6 +88,7 @@
         position: relative;
         display: block;
         color: white;
+        text-align: center;
         font-size: 17px;
         z-index: 5;
     }
@@ -126,10 +125,10 @@
         font-family: Arial;
         background-color: grey;
         margin: 0;
-        overflow: hidden;
+        overflow-y: scroll;
     }
     .modal{
-        position:fixed; 
+        position:absolute; 
         z-index: 1; 
         margin: 0;
         padding: 0;
@@ -153,7 +152,7 @@
         height: fit-content;
     }
     .container{
-        width: 50%;
+        width: 70%;
         min-height: 100vh;
         box-sizing: border-box;
         overflow: hidden;
@@ -164,7 +163,7 @@
         padding: 1%;
     }
     .header{
-        height: 300px;
+        height: 500px;
         display: flex;
         flex-direction: column;
         flex: 1;
@@ -176,7 +175,6 @@
         box-shadow: 1px 2px 10px white;
         padding: 5px;
         box-sizing: border-box;
-        overflow: hidden;
     }
 
     h1{
@@ -198,7 +196,7 @@
         cursor: pointer;
         margin: 10px;
         font-weight: bold;
-        font-size: 12px;
+        font-size: 15px;
         transition: box-shadow 0.15s;
         vertical-align:top;
     }
@@ -214,8 +212,9 @@
         position: relative;
         display: block;
         color: white;
-        font-size: 12px;
+        font-size: 15px;
         z-index: 5;
+        text-align: center;
     }
 
     .reloadButton{
@@ -230,7 +229,7 @@
         cursor: pointer;
         margin: 10px;
         font-weight: bold;
-        font-size: 12px;
+        font-size: 15px;
         transition: box-shadow 0.15s;
         vertical-align:top;
         z-index: 10;
@@ -251,10 +250,10 @@
         font-family: Arial;
         background-color: grey;
         margin: 0;
-        overflow: hidden;
+        overflow: scroll;
     }
     .modal{
-        position:fixed; 
+        position:absolute; 
         z-index: 1; 
         margin: 0;
         padding: 0;
@@ -278,7 +277,7 @@
         height: fit-content;
     }
     .container{
-        width: 50%;
+        width: 80%;
         min-height: 100vh;
         box-sizing: border-box;
         overflow: hidden;
@@ -289,7 +288,7 @@
         padding: 1%;
     }
     .header{
-        height: 300px;
+        height: 500px;
         display: flex;
         flex-direction: column;
         flex: 1;
@@ -301,7 +300,6 @@
         box-shadow: 1px 2px 10px white;
         padding: 5px;
         box-sizing: border-box;
-        overflow: hidden;
     }
 
     h1{
@@ -309,7 +307,8 @@
         justify-content: center;
         align-items: center;
         color: white;
-        font-size: 13px;
+        font-size: 18px;
+        text-align: center;
     }
     
     button{
@@ -323,7 +322,7 @@
         cursor: pointer;
         margin: 10px;
         font-weight: bold;
-        font-size: 8px;
+        font-size: 13px;
         transition: box-shadow 0.15s;
         vertical-align:top;
     }
@@ -339,8 +338,9 @@
         position: relative;
         display: block;
         color: white;
-        font-size: 8px;
+        font-size: 13px;
         z-index: 5;
+        text-align: center;
     }
 
     .reloadButton{
@@ -355,7 +355,7 @@
         cursor: pointer;
         margin: 10px;
         font-weight: bold;
-        font-size: 8px;
+        font-size: 13px;
         transition: box-shadow 0.15s;
         vertical-align:top;
         z-index: 10;
